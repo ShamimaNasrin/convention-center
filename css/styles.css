@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-btn {
+    color: rgb(13, 168, 230);
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.carousel-caption a {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+/* Moments section */
+.text-gray {
+    color: gray;
+}
+
+.explore-btn {
+    width: 219px;
+}
+
+/* package section */
+.fa-circle-check {
+    color: rgb(13, 168, 230);
+}
+
+.b-visible {
+    visibility: hidden;
+}
+
+.pack-card {
+    max-width: 300px;
+}
+
+.pack-card:hover {
+    color: white;
+    background-color: #3E86F5;
+    margin-top: -25px;
+    box-shadow: 3px 14px 29px rgba(10, 126, 156, 0.3);
+    transition-duration: 0.4s;
+}
+
+.pack-card:hover .text-gray,
+.pack-item:hover .fa-circle-check {
+    color: white;
+}
+
+/* .pack-item:hover .fa-circle-check{
+    color: white;
+}  */
+.pack-card:hover .b-visible {
+    visibility: visible;
+}
+
+/* Client Section */
+.round-img {
+    width: 100px;
+}
+
+/* Question section */
+.btn-custom-bg {
+    background-color: white !important;
+}
+
+footer {
+    background-color: #0B0D17;
+    color: white;
+}
+
+footer img {
+    width: 150px;
+}
